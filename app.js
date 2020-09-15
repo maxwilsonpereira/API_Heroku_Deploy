@@ -1,8 +1,20 @@
+// Create package.json file:
+// npm init -y
 // npm install express
 // RUN WITH NODE (on terminal): node app
 // NODEMON TO AUTO REFRESH:
 // npm install nodemon
 // RUN WITH NODEMON (on terminal): nodemon app
+// ADD to package.json (JUST "start": ... IF "scripts" already exists):
+// "scripts": {
+//     "start": "node app"
+//   },
+
+// DEPLOYMENT:
+// 1st: Creat a Git Repository and push project to it;
+// 2nd: On Heroku, create NEW, Connect to GitHub.
+// Search for the GitHub repository and connect!
+// Create file Procfile
 
 const express = require("express");
 const app = express();
